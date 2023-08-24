@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"origins:slow_falling",
+		"origins:like_air",
+		"origins:tailwind",
+		"origins:lay_eggs"
+	],
+	"icon": {
+		"item": "minecraft:feather"
+	},
+	"order": 0,
+	"impact": 1,
+	"loading_priority": 1
+}
