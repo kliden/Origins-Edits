@@ -1,0 +1,11 @@
+{
+	"type": "origins:self_action_on_kill",
+	"entity_action": {
+		"type": "origins:feed",
+		"food": 2,
+		"saturation": 2
+	},
+	"cooldown": 0,
+	"name": "Fucking Eats People",
+	"description": "Restores hunger on kill."
+}
