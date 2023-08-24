@@ -1,6 +1,7 @@
 {
 	"replace": false,
 	"origins": [
-		"ac:wicky"
+		"ac:wicky",
+		"ac:protogen"
 	]
 }

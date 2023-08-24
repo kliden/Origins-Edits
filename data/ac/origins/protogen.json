@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"ac:night_vision_optics",
+		"ac:targeting_hud",
+		"ac:reboot",
+		"ac:refuel"
+	],
+	"icon": {
+		"item": "minecraft:iron_ingot"
+	},
+	"order": 0,
+	"impact": 2,
+	"name": "Protogen",
+	"description": "A friendly computer."
+}

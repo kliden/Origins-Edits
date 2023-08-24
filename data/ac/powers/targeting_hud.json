@@ -1,0 +1,46 @@
+{
+	"type": "origins:entity_glow",
+	"use_teams": false,
+	"red": 1.0,
+	"green": 0.8,
+	"blue": 0.1,
+	"entity_condition": {
+		"type": "origins:living"
+	},
+	"bientity_condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:can_see",
+				"fluid_handling": "none"
+			},
+			{
+				"type": "origins:actor_condition",
+				"condition": {
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:or",
+						"conditions": [
+							{
+								"type": "origins:ingredient",
+								"ingredient": {
+									"item": "minecraft:bow"
+								}
+							},
+							{
+								"type": "origins:ingredient",
+								"ingredient": {
+									"item": "minecraft:crossbow"
+								}
+							}
+						]
+						
+					}
+				}
+			}
+		]
+	},
+	"name": "Targetting HUD",
+	"description": "The protogen's targetting computer highlights inferior organics when a bow or crossbow is equipped."
+}

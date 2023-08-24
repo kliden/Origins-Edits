@@ -1,0 +1,56 @@
+{
+	"type": "origins:active_self",
+	"key": {
+		"key": "key.use",
+		"continuous": false
+	},
+	"entity_action": {
+		"type": "origins:if_else",
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:and",
+				"conditions": [
+					{
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:coal"
+						}
+					},
+					{
+						"type": "origins:amount",
+						"comparison": ">=", 
+						"compare_to": 4
+					}
+				]
+				
+			}
+		},
+		"if_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:feed",
+					"food": 4,
+					"saturation": 2
+				},
+				{
+					"type": "origins:equipped_item_action",
+					"equipment_slot": "mainhand",
+					"action": {
+						"type": "origins:consume",
+						"amount": 4
+					}
+				}
+			]
+			
+		}
+	},
+	"cooldown": 10,
+	"hud_render": {
+		"should_render": false
+	},
+	"name": "Refuel",
+	"description": "Protogens can consume coal to restore hunger. Right click when coal is in your hand to consume four coal."
+}
