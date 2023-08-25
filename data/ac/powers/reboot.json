@@ -5,7 +5,7 @@
 		"actions": [
 		  {
 			"type": "origins:heal",
-			"amount": 2
+			"amount": 4
 		  },
 		  {
 			"type": "origins:feed",
