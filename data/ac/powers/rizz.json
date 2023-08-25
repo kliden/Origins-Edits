@@ -1,0 +1,16 @@
+{
+	"type": "origins:action_when_hit",
+	"bientity_action": {
+		"type": "origins:actor_action",
+		"action": {
+			"type": "origins:apply_effect",
+			"effect": {
+				"effect": "minecraft:slowness",
+				"amplifier": 1,
+				"duration": 80
+			}
+		}
+	},
+	"name": "Rizz",
+	"description": "You're so hot that enemies regret attacking you, slowing them for a short time."
+}

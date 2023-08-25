@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"ac:rizz",
+		"ac:fox_dog_tame",
+		"ac:familiar_scent"
+	],
+	"icon": {
+		"item": "minecraft:bone"
+	},
+	"order": 0,
+	"impact": 2,
+	"name": "Rex",
+	"description": "A handsome fluff."
+}

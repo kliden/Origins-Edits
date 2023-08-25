@@ -1,0 +1,28 @@
+{
+	"type": "origins:entity_glow",
+	"use_teams": false,
+	"red": 0.0,
+	"green": 1,
+	"blue": 0.0,
+	"entity_condition": {
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:fox"
+			},
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:wolf"
+			}
+		]
+	},
+	"bientity_condition": {
+		"type": "origins:actor_condition",
+		"condition": {
+			"type": "origins:sneaking"
+		}
+	},
+	"name": "Familiar Scent",
+	"description": "You can smell foxes and dogs for miles, highlighting them when you crouch."
+}
