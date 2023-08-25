@@ -1,8 +1,8 @@
 {
 	"powers": [
-		"ac:rizz",
 		"ac:fox_dog_tame",
-		"ac:familiar_scent"
+		"ac:familiar_scent",
+		"ac:rizz"
 	],
 	"icon": {
 		"item": "minecraft:bone"

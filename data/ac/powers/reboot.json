@@ -22,5 +22,5 @@
 		]
 	  },
 	"name": "Reboot",
-	"description": "'Have you tried turning it off and on again?' Removes ALL status effects and restores a small amount of HP and hunger upon sleeping."
+	"description": "'Have you tried turning it off and on again?' When you wake up from sleeping, you removes ALL status effects and restore a small amount of health and hunger."
 }

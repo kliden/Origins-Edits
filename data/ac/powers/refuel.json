@@ -52,5 +52,5 @@
 		"should_render": false
 	},
 	"name": "Refuel",
-	"description": "Protogens can consume coal to restore hunger. Right click when coal is in your hand to consume four coal."
+	"description": "You can consume four coal to restore hunger."
 }

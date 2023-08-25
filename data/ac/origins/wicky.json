@@ -1,8 +1,8 @@
 {
 	"powers": [
-		"ac:hungry",
 		"ac:cookie_finder",
-		"ac:hug"
+		"ac:hug",
+		"ac:hungry"
 	],
 	"icon": {
 		"item": "minecraft:amethyst_shard"
@@ -10,5 +10,5 @@
 	"order": 0,
 	"impact": 2,
 	"name": "Wicky",
-	"description": "Big fluffy dragon."
+	"description": "A big fluffy dragon."
 }
